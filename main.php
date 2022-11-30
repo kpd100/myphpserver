@@ -26,12 +26,11 @@
 
                 <div class="fullname">
                     <p> Меня зовут 
-                    <?php echo $name, ' ', $surname . '<br>'; 
-                          echo 'город', ' ', $city; ?>                                      
-                    </p> 
-           
+                    <?php echo $name, ' ', $surname . '<br>';
+                          echo 'город', ' ', $city; ?>
+                    </p>
                     <p> Мне
-                    <?php  echo $age;   ?>          
+                    <?php  echo $age;   ?>
                     лет </p>
                     <p> Мы научились создавать переменные </p>
                     <p> Изучили простые операции с ними </p>
@@ -39,27 +38,32 @@
             </div>
 
             <div class="knowledge">
-                                   
                     <?php  include 'knowledge.inc.php'; ?>
                     <?php   echo $a, ' ', $b, ' ', $c; ?> <br>
-                                       
                     <?php
                         $a = 10;
                         $b = 20;
                         $c = $a + $b;
                         echo $c;
-                    ?>   <br>                
+                    ?>   <br>
                      <?php
                         echo $d;
-                    ?> 
+                    ?>
 
             </div>
 
             <div class="article">
                 <p class="text">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-                    Recusandae asperiores ducimus dolore explicabo. Animi est amet quibusdam molestias! 
-                    Minus laudantium sapiente dignissimos possimus natus cumque delectus sed, accusantium totam quia?
+			Хакер, юзер, программист —
+			За компьютером артист!
+			Выдает лихие вещи,
+			Не поймешь его, хоть тресни!
+			Он с программами на «ты»
+			От «каспера» до «винды».
+			Что с процессором случится —
+			Каждый в гости к нему мчится.
+			Он решит любой вопрос,
+			Гениальный мега-мозг!
                 </p>
             </div>
         </div>
